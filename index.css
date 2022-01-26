@@ -1,0 +1,32 @@
+body{
+    background-image: url("https://www.fun-academy.fr/wp-content/uploads/2021/10/Yu-Gi-Oh-Master-Duel-arrive-cet-hiver.jpg");
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.item{
+    margin: 20px;
+    padding: 20px;
+    border: solid;
+    width: 200px;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.5);
+}

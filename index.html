@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Yu-Gi-Oh</title>
+    <script src="script.js" ></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="center">Cards Database</h1>
+    <div class="center" id="creation_menu">
+        <div>
+            Name: <input type="text" id="name_input">
+            Level: <input type="number" id="level_input">
+            Type: <select id="type_input">
+                    <option value="Monster">Monster</option>
+                    <option value="Spell">Spell</option>
+                    <option value="Trap">Trap</option>
+                    <option value="Other">Other</option>
+                </select>
+            Atk: <input type="number" id="atk_input">
+            Def: <input type="number" id="def_input">
+            <button onclick="send_card()">Ajouter</button>
+        </div>
+    </div>
+    <div id="content" class="container">Vous devez activer JS</div><br>
+    <div id="edit_menu"></div>
+    <div id="message_error" style="color: red;"></div>
+</body>
+</html>

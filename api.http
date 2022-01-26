@@ -1,0 +1,28 @@
+POST http://localhost:500/add.php
+Content-Type: application/json
+
+{
+        "name": "Kiler",
+        "level": 74,
+        "type": "Monster",
+        "imgLink": "\/image\/img",
+        "atk": 584,
+        "def": 4752
+}
+
+####
+DELETE http://localhost:500/delete.php
+Content-Type: application/json
+
+{
+}
+
+####
+PUT http://localhost:500/edit.php
+Content-Type: application/json
+
+{
+        "id": 6,
+        "level": 741,
+        "name": "Pourta"
+}
